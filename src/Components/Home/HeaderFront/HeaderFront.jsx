@@ -30,7 +30,7 @@ const HeaderFront = () => {
                     Master's(MApCompSc) Student from Concordia University, enthusiastic Software Solutions creator.</p>
                 </div>
                 <AnimatedTitles /> 
-                <Button style={{display: "hidden"}} variant="light" href="https://drive.google.com/file/d/1v9zijrpmbBZm3J3t61tF35ovKXjwBL2P/view?usp=drive_link"> <span style={{fontSize: '1em', display: 'hidden'}} role="img" aria-label="cv"> 👨🏻‍💻  </span> Resume </Button> 
+                <Button style={{display: "hidden"}} variant="light" href="https://www.dropbox.com/scl/fi/sz8qc1e2u6bn5n4el5l2p/Gurpreet-Resume.pdf?rlkey=bzu0dmd1r17w37l69fqciud0p&dl=0"> <span style={{fontSize: '1em', display: 'hidden'}} role="img" aria-label="cv"> 👨🏻‍💻  </span> Resume </Button> 
             </div>
             <div style={{color: 'white', display: 'flex', marginTop: -40, justifyContent: 'flex-end', marginRight: 10}}> 
                 <a style={{textDecoration: 'none', color: 'white'}} href="https://github.com/Gurpreet240797/"> <FaGithub style = {{marginRight: 15, fontSize: 20}}/> </a>

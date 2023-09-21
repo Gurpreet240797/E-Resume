@@ -1,0 +1,135 @@
+$baseColor: #003049;
+$baseNavColor: #012335;
+$secondaryColor: $baseNavColor;
+$redthemeColor: #d62828;
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+html {
+    overflow-y: hidden;
+}
+
+
+.customNavbar {
+    background-color: $baseColor;
+}
+
+.customNav {
+    padding: 10;
+    text-align: center;
+    background-color: $baseNavColor;
+    text-decoration: none;
+    color: black;
+}
+
+.mainContainer {
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+.customToggler {
+   color: wheat; 
+}
+
+.cutomColumn {
+    margin-top: 1rem;
+}
+
+.projectBase {
+    .projectSection {
+        background-color: whitesmoke;
+        padding-top: 2rem;
+        h3 {
+            color: black;
+        }
+        hr {
+            display: none;
+        }
+    }
+}
+
+.projectSection {
+    margin-bottom: 0.8rem;
+    padding-bottom: 1.2rem;
+    margin-top: 2rem;
+    padding-top: 1.2rem;
+    margin-left: 0rem;
+    background-color: whitesmoke;
+}
+
+.customButton {
+    background-color: white;
+    border-color: black;
+    color: black
+}
+
+
+.customline{
+  width: 50%;
+  background-color: white;
+}
+
+.active {
+    background-color: $redthemeColor;
+    font: bold;
+    padding: 10;
+    text-align: center;
+}
+
+.customLink {
+    display: block;
+    align-items: center;
+    text-align: center;
+    background-color: #003049;
+    outline-color: red;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    outline: none;
+    padding: 0.5rem;
+    
+}
+
+.customLink:hover {
+    background-color:#003049;
+    color: white;
+    outline-color: red;
+}
+
+
+.link {
+    background-color: #003049;
+}
+
+
+.navbar-hamburger {
+    border-color: red;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(255,255,255,.1);
+}
+
+.customBrand {
+    background-color: #003049;
+    color: white;
+    display: none;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .customBrand {
+        display: block
+    }
+}
+

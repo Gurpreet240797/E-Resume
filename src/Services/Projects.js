@@ -1,5 +1,5 @@
 //const baseUrl = "http://localhost:8000/api"
-const baseUrl = "https://restapi-gp.onrender.com/api"
+const baseUrl = "https://nice-pink-tick-garb.cyclic.cloud/api/"
 
 const downloadProject = () => {
     const url = `${baseUrl}/projects`

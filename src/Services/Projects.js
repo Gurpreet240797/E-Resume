@@ -4,16 +4,12 @@ const baseUrl = "https://puzzled-jay-stockings.cyclic.cloud/api/"
 const downloadProject = () => {
     const url = `${baseUrl}/projects`
     const data = fetch(url).then(data => data.json())
-    console.log("Projects :: ");
-    console.log(data);
     return data
 }
 
 const downloadProjectByID = (id) => {
     const url = `${baseUrl}/project/${id}`
     const data = fetch(url).then(data => data.json())
-    console.log("Project by ID :: ");
-    console.log(data);
     return data
 }
 
